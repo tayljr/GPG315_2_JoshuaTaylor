@@ -13,40 +13,16 @@ MonoBehaviour:
   m_Name: DialogGraph
   m_EditorClassIdentifier: 
   Graphs:
-  - rid: 6445738761541649121
+  - rid: 6445738762625352368
   RootGraph:
-    rid: 6445738761541649121
+    rid: 6445738762625352368
   m_DebugInfo: {fileID: 7904998014351526526}
   references:
     version: 2
     RefIds:
     - rid: -2
       type: {class: , ns: , asm: }
-    - rid: 6445738761541649116
-      type: {class: 'BlackboardVariable`1[[System.String, mscorlib]]', ns: Unity.Behavior, asm: Unity.Behavior}
-      data:
-        GUID:
-          m_Value0: 0
-          m_Value1: 0
-        Name: 
-        m_Value: 'Hi, Press Space to Continue... '
-    - rid: 6445738761541649117
-      type: {class: 'BlackboardVariable`1[[System.String, mscorlib]]', ns: Unity.Behavior, asm: Unity.Behavior}
-      data:
-        GUID:
-          m_Value0: 0
-          m_Value1: 0
-        Name: 
-        m_Value: Bye
-    - rid: 6445738761541649120
-      type: {class: 'BlackboardVariable`1[[System.String, mscorlib]]', ns: Unity.Behavior, asm: Unity.Behavior}
-      data:
-        GUID:
-          m_Value0: 0
-          m_Value1: 0
-        Name: 
-        m_Value: See you Later
-    - rid: 6445738761541649121
+    - rid: 6445738762625352368
       type: {class: BehaviorGraphModule, ns: Unity.Behavior, asm: Unity.Behavior}
       data:
         AuthoringAssetID:
@@ -54,71 +30,72 @@ MonoBehaviour:
           m_Value1: 6315928980686265193
         m_DebugInfo: {fileID: 0}
         BlackboardReference:
-          rid: 6445738761541649122
+          rid: 6445738762625352369
         BlackboardGroupReferences: []
         Root:
-          rid: 6445738761541649123
+          rid: 6445738762625352370
         m_ActiveNodes: []
         m_NodesToTick: []
         m_NodesToEnd:
-          rid: 6445738761541649124
+          rid: 6445738762625352371
         m_EndedNodes:
-          rid: 6445738761541649125
-        m_VersionTimestamp: 638906142562479017
-    - rid: 6445738761541649122
+          rid: 6445738762625352372
+        m_VersionTimestamp: 638906225389575881
+    - rid: 6445738762625352369
       type: {class: BlackboardReference, ns: Unity.Behavior, asm: Unity.Behavior}
       data:
         m_Blackboard:
-          rid: 6445738761541649126
+          rid: 6445738762625352373
         m_Source: {fileID: 3980725057169886898}
-    - rid: 6445738761541649123
+    - rid: 6445738762625352370
       type: {class: Start, ns: Unity.Behavior, asm: Unity.Behavior}
       data:
         ID:
           m_Value0: 13535518261897634341
           m_Value1: 13708717518321774155
         Graph:
-          rid: 6445738761541649121
+          rid: 6445738762625352368
         m_Parent:
           rid: -2
         m_Child:
-          rid: 6445738761541649127
+          rid: 6445738762625352374
         Repeat: 1
         AllowMultipleRepeatsPerTick: 0
-    - rid: 6445738761541649124
+    - rid: 6445738762625352371
       type: {class: 'Stack`1[[Unity.Behavior.Node, Unity.Behavior]]', ns: System.Collections.Generic, asm: mscorlib}
       data: 
-    - rid: 6445738761541649125
+    - rid: 6445738762625352372
       type: {class: 'HashSet`1[[Unity.Behavior.Node, Unity.Behavior]]', ns: System.Collections.Generic, asm: System.Core}
       data: 
-    - rid: 6445738761541649126
+    - rid: 6445738762625352373
       type: {class: Blackboard, ns: Unity.Behavior, asm: Unity.Behavior}
       data:
         m_Variables:
-        - rid: 6445738761541649128
-        - rid: 6445738761541649129
-        - rid: 6445738761541649130
-        - rid: 6445738761541649131
-        - rid: 6445738761541649132
-        - rid: 6445738761541649133
-        - rid: 6445738761541649134
-        - rid: 6445738761541649135
-        - rid: 6445738761541649136
-    - rid: 6445738761541649127
+        - rid: 6445738762625352375
+        - rid: 6445738762625352376
+        - rid: 6445738762625352377
+        - rid: 6445738762625352378
+        - rid: 6445738762625352379
+        - rid: 6445738762625352380
+        - rid: 6445738762625352381
+        - rid: 6445738762625352382
+        - rid: 6445738762625352383
+        - rid: 6445738762625352384
+        - rid: 6445738762625352385
+    - rid: 6445738762625352374
       type: {class: SequenceComposite, ns: Unity.Behavior, asm: Unity.Behavior}
       data:
         ID:
-          m_Value0: 4798464333555291809
-          m_Value1: 1757759238270918911
+          m_Value0: 8631415247150666758
+          m_Value1: 10390650121283584483
         Graph:
-          rid: 6445738761541649121
+          rid: 6445738762625352368
         m_Parent:
-          rid: 6445738761541649123
+          rid: 6445738762625352370
         m_Children:
-        - rid: 6445738761541649137
-        - rid: 6445738761541649138
-        - rid: 6445738761541649139
-    - rid: 6445738761541649128
+        - rid: 6445738762625352386
+        - rid: 6445738762625352387
+    - rid: 6445738762625352375
       type: {class: 'BlackboardVariable`1[[UnityEngine.GameObject, UnityEngine.CoreModule]]', ns: Unity.Behavior, asm: Unity.Behavior}
       data:
         GUID:
@@ -126,15 +103,23 @@ MonoBehaviour:
           m_Value1: 0
         Name: Self
         m_Value: {fileID: 0}
-    - rid: 6445738761541649129
+    - rid: 6445738762625352376
       type: {class: 'BlackboardVariable`1[[CharacterBase, Assembly-CSharp]]', ns: Unity.Behavior, asm: Unity.Behavior}
       data:
         GUID:
           m_Value0: 10108344235385807197
           m_Value1: 3264355818116306250
-        Name: Taget
+        Name: Player
         m_Value: {fileID: 0}
-    - rid: 6445738761541649130
+    - rid: 6445738762625352377
+      type: {class: 'BlackboardVariable`1[[CharacterBase, Assembly-CSharp]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 10846031903585127729
+          m_Value1: 1681911373270724074
+        Name: Target
+        m_Value: {fileID: 0}
+    - rid: 6445738762625352378
       type: {class: 'BlackboardVariable`1[[TMPro.TextMeshProUGUI, Unity.TextMeshPro]]', ns: Unity.Behavior, asm: Unity.Behavior}
       data:
         GUID:
@@ -142,7 +127,7 @@ MonoBehaviour:
           m_Value1: 11887153143713242795
         Name: SelfDialogBox
         m_Value: {fileID: 0}
-    - rid: 6445738761541649131
+    - rid: 6445738762625352379
       type: {class: 'BlackboardVariable`1[[TMPro.TextMeshProUGUI, Unity.TextMeshPro]]', ns: Unity.Behavior, asm: Unity.Behavior}
       data:
         GUID:
@@ -150,7 +135,7 @@ MonoBehaviour:
           m_Value1: 15981682294120603350
         Name: SelfNameBox
         m_Value: {fileID: 0}
-    - rid: 6445738761541649132
+    - rid: 6445738762625352380
       type: {class: 'BlackboardVariable`1[[UnityEngine.UI.Image, UnityEngine.UI]]', ns: Unity.Behavior, asm: Unity.Behavior}
       data:
         GUID:
@@ -158,7 +143,7 @@ MonoBehaviour:
           m_Value1: 14104649271885143596
         Name: SelfPortrait
         m_Value: {fileID: 0}
-    - rid: 6445738761541649133
+    - rid: 6445738762625352381
       type: {class: 'BlackboardVariable`1[[TMPro.TextMeshProUGUI, Unity.TextMeshPro]]', ns: Unity.Behavior, asm: Unity.Behavior}
       data:
         GUID:
@@ -166,7 +151,7 @@ MonoBehaviour:
           m_Value1: 5491814918917405738
         Name: TargetDialogBox
         m_Value: {fileID: 0}
-    - rid: 6445738761541649134
+    - rid: 6445738762625352382
       type: {class: 'BlackboardVariable`1[[TMPro.TextMeshProUGUI, Unity.TextMeshPro]]', ns: Unity.Behavior, asm: Unity.Behavior}
       data:
         GUID:
@@ -174,7 +159,7 @@ MonoBehaviour:
           m_Value1: 13020984562582965888
         Name: TargetNameBox
         m_Value: {fileID: 0}
-    - rid: 6445738761541649135
+    - rid: 6445738762625352383
       type: {class: 'BlackboardVariable`1[[UnityEngine.UI.Image, UnityEngine.UI]]', ns: Unity.Behavior, asm: Unity.Behavior}
       data:
         GUID:
@@ -182,99 +167,79 @@ MonoBehaviour:
           m_Value1: 14201311018593238242
         Name: TargetPortrait
         m_Value: {fileID: 0}
-    - rid: 6445738761541649136
-      type: {class: 'BlackboardVariable`1[[System.Boolean, mscorlib]]', ns: Unity.Behavior, asm: Unity.Behavior}
+    - rid: 6445738762625352384
+      type: {class: 'BlackboardVariable`1[[JSONReader, Assembly-CSharp]]', ns: Unity.Behavior, asm: Unity.Behavior}
       data:
         GUID:
-          m_Value0: 10049009883720031251
-          m_Value1: 1646004231254412851
-        Name: bool test
-        m_Value: 0
-    - rid: 6445738761541649137
-      type: {class: TalkAction, ns: , asm: Assembly-CSharp}
+          m_Value0: 12860332087085090371
+          m_Value1: 7424629120669840848
+        Name: Messages
+        m_Value: {fileID: 0}
+    - rid: 6445738762625352385
+      type: {class: 'BlackboardVariable`1[[JSONReader, Assembly-CSharp]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 3252378325471085911
+          m_Value1: 16398537705718655655
+        Name: Messages2
+        m_Value: {fileID: 0}
+    - rid: 6445738762625352386
+      type: {class: ConversationAction, ns: , asm: Assembly-CSharp}
       data:
         ID:
-          m_Value0: 1107528557635811829
-          m_Value1: 1256829984908193134
+          m_Value0: 8631415247150666758
+          m_Value1: 10390650121283584483
         Graph:
-          rid: 6445738761541649121
+          rid: 6445738762625352368
         m_Parent:
-          rid: 6445738761541649127
-        agent:
-          rid: 6445738761541649140
-        _text:
-          rid: 6445738761541649116
-        target:
-          rid: 6445738761541649129
+          rid: 6445738762625352374
+        Agent:
+          rid: 6445738762625352388
+        Target:
+          rid: 6445738762625352376
+        Conversation:
+          rid: 6445738762625352384
         agentDialogBox:
-          rid: 6445738761541649130
+          rid: 6445738762625352378
         agentName:
-          rid: 6445738761541649131
+          rid: 6445738762625352379
         agentPortrait:
-          rid: 6445738761541649132
+          rid: 6445738762625352380
         targetDialogBox:
-          rid: 6445738761541649133
+          rid: 6445738762625352381
         targetName:
-          rid: 6445738761541649134
+          rid: 6445738762625352382
         targetPortrait:
-          rid: 6445738761541649135
-    - rid: 6445738761541649138
-      type: {class: TalkAction, ns: , asm: Assembly-CSharp}
+          rid: 6445738762625352383
+    - rid: 6445738762625352387
+      type: {class: ConversationAction, ns: , asm: Assembly-CSharp}
       data:
         ID:
-          m_Value0: 5119620387253541522
-          m_Value1: 2210220215517535292
+          m_Value0: 13835373625201962174
+          m_Value1: 14360618100004999144
         Graph:
-          rid: 6445738761541649121
+          rid: 6445738762625352368
         m_Parent:
-          rid: 6445738761541649127
-        agent:
-          rid: 6445738761541649129
-        _text:
-          rid: 6445738761541649117
-        target:
-          rid: 6445738761541649141
+          rid: 6445738762625352374
+        Agent:
+          rid: 6445738762625352389
+        Target:
+          rid: 6445738762625352377
+        Conversation:
+          rid: 6445738762625352385
         agentDialogBox:
-          rid: 6445738761541649133
+          rid: 6445738762625352378
         agentName:
-          rid: 6445738761541649134
+          rid: 6445738762625352379
         agentPortrait:
-          rid: 6445738761541649135
+          rid: 6445738762625352380
         targetDialogBox:
-          rid: 6445738761541649130
+          rid: 6445738762625352381
         targetName:
-          rid: 6445738761541649131
+          rid: 6445738762625352382
         targetPortrait:
-          rid: 6445738761541649132
-    - rid: 6445738761541649139
-      type: {class: TalkAction, ns: , asm: Assembly-CSharp}
-      data:
-        ID:
-          m_Value0: 15095388940583457994
-          m_Value1: 10724178396428686191
-        Graph:
-          rid: 6445738761541649121
-        m_Parent:
-          rid: 6445738761541649127
-        agent:
-          rid: 6445738761541649142
-        _text:
-          rid: 6445738761541649120
-        target:
-          rid: 6445738761541649129
-        agentDialogBox:
-          rid: 6445738761541649130
-        agentName:
-          rid: 6445738761541649131
-        agentPortrait:
-          rid: 6445738761541649132
-        targetDialogBox:
-          rid: 6445738761541649133
-        targetName:
-          rid: 6445738761541649134
-        targetPortrait:
-          rid: 6445738761541649135
-    - rid: 6445738761541649140
+          rid: 6445738762625352383
+    - rid: 6445738762625352388
       type: {class: 'GameObjectToComponentBlackboardVariable`1[[CharacterBase, Assembly-CSharp]]', ns: Unity.Behavior, asm: Unity.Behavior}
       data:
         GUID:
@@ -283,8 +248,8 @@ MonoBehaviour:
         Name: 
         m_Value: {fileID: 0}
         m_LinkedVariable:
-          rid: 6445738761541649128
-    - rid: 6445738761541649141
+          rid: 6445738762625352375
+    - rid: 6445738762625352389
       type: {class: 'GameObjectToComponentBlackboardVariable`1[[CharacterBase, Assembly-CSharp]]', ns: Unity.Behavior, asm: Unity.Behavior}
       data:
         GUID:
@@ -293,17 +258,7 @@ MonoBehaviour:
         Name: 
         m_Value: {fileID: 0}
         m_LinkedVariable:
-          rid: 6445738761541649128
-    - rid: 6445738761541649142
-      type: {class: 'GameObjectToComponentBlackboardVariable`1[[CharacterBase, Assembly-CSharp]]', ns: Unity.Behavior, asm: Unity.Behavior}
-      data:
-        GUID:
-          m_Value0: 0
-          m_Value1: 0
-        Name: 
-        m_Value: {fileID: 0}
-        m_LinkedVariable:
-          rid: 6445738761541649128
+          rid: 6445738762625352375
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -324,7 +279,11 @@ MonoBehaviour:
   - rid: 6445738760877638297
   - rid: 6445738761541648960
   - rid: 6445738761541649000
-  m_VersionTimestamp: 638906142562479017
+  - rid: 6445738762625351776
+  - rid: 6445738762625352089
+  - rid: 6445738762625352107
+  - rid: 6445738762625352163
+  m_VersionTimestamp: 638906225389575881
   m_DebugInfo: {fileID: 7904998014351526526}
   m_RuntimeGraph: {fileID: -3186776331243684156}
   AssetID:
@@ -361,6 +320,58 @@ MonoBehaviour:
     - Name: target
       Type:
         m_SerializableType: CharacterBase, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      Tooltip: 
+    - Name: agentDialogBox
+      Type:
+        m_SerializableType: TMPro.TextMeshProUGUI, Unity.TextMeshPro, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      Tooltip: 
+    - Name: agentName
+      Type:
+        m_SerializableType: TMPro.TextMeshProUGUI, Unity.TextMeshPro, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      Tooltip: 
+    - Name: agentPortrait
+      Type:
+        m_SerializableType: UnityEngine.UI.Image, UnityEngine.UI, Version=1.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      Tooltip: 
+    - Name: targetDialogBox
+      Type:
+        m_SerializableType: TMPro.TextMeshProUGUI, Unity.TextMeshPro, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      Tooltip: 
+    - Name: targetName
+      Type:
+        m_SerializableType: TMPro.TextMeshProUGUI, Unity.TextMeshPro, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      Tooltip: 
+    - Name: targetPortrait
+      Type:
+        m_SerializableType: UnityEngine.UI.Image, UnityEngine.UI, Version=1.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      Tooltip: 
+    NamedChildren: []
+  - Name: Conversation
+    Story: '[Agent] and [Target] are in Conversation'
+    RuntimeTypeID:
+      m_Value0: 4030921537281157851
+      m_Value1: 4423157355141753057
+    Variables:
+    - Name: Agent
+      Type:
+        m_SerializableType: CharacterBase, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      Tooltip: 
+    - Name: Target
+      Type:
+        m_SerializableType: CharacterBase, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      Tooltip: 
+    - Name: Conversation
+      Type:
+        m_SerializableType: JSONReader, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
           PublicKeyToken=null
       Tooltip: 
     - Name: agentDialogBox
@@ -433,7 +444,7 @@ MonoBehaviour:
     - rid: 3098273754418774203
       type: {class: StartNodeModel, ns: Unity.Behavior, asm: Unity.Behavior.Authoring}
       data:
-        Position: {x: -164.79999, y: -66.4}
+        Position: {x: -166.40001, y: -65.6}
         ID:
           m_Value0: 13535518261897634341
           m_Value1: 13708717518321774155
@@ -458,7 +469,7 @@ MonoBehaviour:
         m_NodeModel:
           rid: 3098273754418774203
         m_Connections:
-        - rid: 6445738761541648961
+        - rid: 6445738762625351777
     - rid: 3098273754418774230
       type: {class: ActionNodeModel, ns: Unity.Behavior, asm: Unity.Behavior.Authoring}
       data:
@@ -537,7 +548,7 @@ MonoBehaviour:
         LocalValue:
           rid: 6445738760877637703
         LinkedVariable:
-          rid: 6445738761541649013
+          rid: 6445738762625352142
     - rid: 6445738760877637697
       type: {class: BehaviorGraphNodeModel/FieldModel, ns: Unity.Behavior, asm: Unity.Behavior.Authoring}
       data:
@@ -694,7 +705,7 @@ MonoBehaviour:
         LocalValue:
           rid: 6445738760877638308
         LinkedVariable:
-          rid: 6445738761541648409
+          rid: 6445738762625352142
     - rid: 6445738760877638301
       type: {class: BehaviorGraphNodeModel/FieldModel, ns: Unity.Behavior, asm: Unity.Behavior.Authoring}
       data:
@@ -816,16 +827,6 @@ MonoBehaviour:
           m_Value0: 0
           m_Value1: 0
         Name: 
-        m_Value: {fileID: 0}
-    - rid: 6445738761541648409
-      type: {class: 'TypedVariableModel`1[[CharacterBase, Assembly-CSharp]]', ns: Unity.Behavior.GraphFramework, asm: Unity.Behavior.GraphFramework}
-      data:
-        ID:
-          m_Value0: 10108344235385807197
-          m_Value1: 3264355818116306250
-        Name: Taget
-        IsExposed: 1
-        m_IsShared: 0
         m_Value: {fileID: 0}
     - rid: 6445738761541648453
       type: {class: 'TypedVariableModel`1[[UnityEngine.GameObject, UnityEngine.CoreModule]]', ns: Unity.Behavior.GraphFramework, asm: Unity.Behavior.GraphFramework}
@@ -976,7 +977,7 @@ MonoBehaviour:
     - rid: 6445738761541648960
       type: {class: SequenceNodeModel, ns: Unity.Behavior.GraphFramework, asm: Unity.Behavior.GraphFramework}
       data:
-        Position: {x: -166.39967, y: 145}
+        Position: {x: 218.84467, y: 44.190464}
         ID:
           m_Value0: 4798464333555291809
           m_Value1: 1757759238270918911
@@ -996,8 +997,7 @@ MonoBehaviour:
         m_IsFloating: 0
         m_NodeModel:
           rid: 6445738761541648960
-        m_Connections:
-        - rid: 3098273754418774204
+        m_Connections: []
     - rid: 6445738761541648962
       type: {class: PortModel, ns: Unity.Behavior.GraphFramework, asm: Unity.Behavior.GraphFramework}
       data:
@@ -1085,7 +1085,7 @@ MonoBehaviour:
         LocalValue:
           rid: 6445738761541649022
         LinkedVariable:
-          rid: 6445738761541649013
+          rid: 6445738762625352142
     - rid: 6445738761541649006
       type: {class: BehaviorGraphNodeModel/FieldModel, ns: Unity.Behavior, asm: Unity.Behavior.Authoring}
       data:
@@ -1159,16 +1159,6 @@ MonoBehaviour:
           m_Value0: 1
           m_Value1: 0
         Name: Self
-        IsExposed: 1
-        m_IsShared: 0
-        m_Value: {fileID: 0}
-    - rid: 6445738761541649013
-      type: {class: 'TypedVariableModel`1[[CharacterBase, Assembly-CSharp]]', ns: Unity.Behavior.GraphFramework, asm: Unity.Behavior.GraphFramework}
-      data:
-        ID:
-          m_Value0: 10108344235385807197
-          m_Value1: 3264355818116306250
-        Name: Taget
         IsExposed: 1
         m_IsShared: 0
         m_Value: {fileID: 0}
@@ -1304,6 +1294,641 @@ MonoBehaviour:
           m_Value1: 0
         Name: 
         m_Value: {fileID: 0}
+    - rid: 6445738762625351776
+      type: {class: ActionNodeModel, ns: Unity.Behavior, asm: Unity.Behavior.Authoring}
+      data:
+        Position: {x: -166.29974, y: 50.249886}
+        ID:
+          m_Value0: 8631415247150666758
+          m_Value1: 10390650121283584483
+        Parents: []
+        PortModels:
+        - rid: 6445738762625351777
+        - rid: 6445738762625351778
+        NodeType:
+          m_SerializableType: ConversationAction, Assembly-CSharp, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        NodeTypeID:
+          m_Value0: 4030921537281157851
+          m_Value1: 4423157355141753057
+        m_FieldValues:
+        - rid: 6445738762625351779
+        - rid: 6445738762625351780
+        - rid: 6445738762625351995
+        - rid: 6445738762625351802
+        - rid: 6445738762625351803
+        - rid: 6445738762625351804
+        - rid: 6445738762625351805
+        - rid: 6445738762625351806
+        - rid: 6445738762625351807
+    - rid: 6445738762625351777
+      type: {class: PortModel, ns: Unity.Behavior.GraphFramework, asm: Unity.Behavior.GraphFramework}
+      data:
+        m_Name: InputPort
+        m_PortDataFlowType: 0
+        m_IsFloating: 0
+        m_NodeModel:
+          rid: 6445738762625351776
+        m_Connections:
+        - rid: 3098273754418774204
+    - rid: 6445738762625351778
+      type: {class: PortModel, ns: Unity.Behavior.GraphFramework, asm: Unity.Behavior.GraphFramework}
+      data:
+        m_Name: OutputPort
+        m_PortDataFlowType: 1
+        m_IsFloating: 0
+        m_NodeModel:
+          rid: 6445738762625351776
+        m_Connections:
+        - rid: 6445738762625352164
+    - rid: 6445738762625351779
+      type: {class: BehaviorGraphNodeModel/FieldModel, ns: Unity.Behavior, asm: Unity.Behavior.Authoring}
+      data:
+        FieldName: Agent
+        Type:
+          m_SerializableType: CharacterBase, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+            PublicKeyToken=null
+        LocalValue:
+          rid: 6445738762625351781
+        LinkedVariable:
+          rid: 6445738762625351843
+    - rid: 6445738762625351780
+      type: {class: BehaviorGraphNodeModel/FieldModel, ns: Unity.Behavior, asm: Unity.Behavior.Authoring}
+      data:
+        FieldName: Target
+        Type:
+          m_SerializableType: CharacterBase, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+            PublicKeyToken=null
+        LocalValue:
+          rid: 6445738762625351782
+        LinkedVariable:
+          rid: 6445738762625352142
+    - rid: 6445738762625351781
+      type: {class: 'BlackboardVariable`1[[CharacterBase, Assembly-CSharp]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 0
+          m_Value1: 0
+        Name: 
+        m_Value: {fileID: 0}
+    - rid: 6445738762625351782
+      type: {class: 'BlackboardVariable`1[[CharacterBase, Assembly-CSharp]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 0
+          m_Value1: 0
+        Name: 
+        m_Value: {fileID: 0}
+    - rid: 6445738762625351802
+      type: {class: BehaviorGraphNodeModel/FieldModel, ns: Unity.Behavior, asm: Unity.Behavior.Authoring}
+      data:
+        FieldName: agentDialogBox
+        Type:
+          m_SerializableType: TMPro.TextMeshProUGUI, Unity.TextMeshPro, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        LocalValue:
+          rid: 6445738762625351809
+        LinkedVariable:
+          rid: 6445738762625351881
+    - rid: 6445738762625351803
+      type: {class: BehaviorGraphNodeModel/FieldModel, ns: Unity.Behavior, asm: Unity.Behavior.Authoring}
+      data:
+        FieldName: agentName
+        Type:
+          m_SerializableType: TMPro.TextMeshProUGUI, Unity.TextMeshPro, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        LocalValue:
+          rid: 6445738762625351810
+        LinkedVariable:
+          rid: 6445738762625351900
+    - rid: 6445738762625351804
+      type: {class: BehaviorGraphNodeModel/FieldModel, ns: Unity.Behavior, asm: Unity.Behavior.Authoring}
+      data:
+        FieldName: agentPortrait
+        Type:
+          m_SerializableType: UnityEngine.UI.Image, UnityEngine.UI, Version=1.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        LocalValue:
+          rid: 6445738762625351811
+        LinkedVariable:
+          rid: 6445738762625351919
+    - rid: 6445738762625351805
+      type: {class: BehaviorGraphNodeModel/FieldModel, ns: Unity.Behavior, asm: Unity.Behavior.Authoring}
+      data:
+        FieldName: targetDialogBox
+        Type:
+          m_SerializableType: TMPro.TextMeshProUGUI, Unity.TextMeshPro, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        LocalValue:
+          rid: 6445738762625351812
+        LinkedVariable:
+          rid: 6445738762625351938
+    - rid: 6445738762625351806
+      type: {class: BehaviorGraphNodeModel/FieldModel, ns: Unity.Behavior, asm: Unity.Behavior.Authoring}
+      data:
+        FieldName: targetName
+        Type:
+          m_SerializableType: TMPro.TextMeshProUGUI, Unity.TextMeshPro, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        LocalValue:
+          rid: 6445738762625351813
+        LinkedVariable:
+          rid: 6445738762625351957
+    - rid: 6445738762625351807
+      type: {class: BehaviorGraphNodeModel/FieldModel, ns: Unity.Behavior, asm: Unity.Behavior.Authoring}
+      data:
+        FieldName: targetPortrait
+        Type:
+          m_SerializableType: UnityEngine.UI.Image, UnityEngine.UI, Version=1.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        LocalValue:
+          rid: 6445738762625351814
+        LinkedVariable:
+          rid: 6445738762625352054
+    - rid: 6445738762625351809
+      type: {class: 'BlackboardVariable`1[[TMPro.TextMeshProUGUI, Unity.TextMeshPro]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 0
+          m_Value1: 0
+        Name: 
+        m_Value: {fileID: 0}
+    - rid: 6445738762625351810
+      type: {class: 'BlackboardVariable`1[[TMPro.TextMeshProUGUI, Unity.TextMeshPro]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 0
+          m_Value1: 0
+        Name: 
+        m_Value: {fileID: 0}
+    - rid: 6445738762625351811
+      type: {class: 'BlackboardVariable`1[[UnityEngine.UI.Image, UnityEngine.UI]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 0
+          m_Value1: 0
+        Name: 
+        m_Value: {fileID: 0}
+    - rid: 6445738762625351812
+      type: {class: 'BlackboardVariable`1[[TMPro.TextMeshProUGUI, Unity.TextMeshPro]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 0
+          m_Value1: 0
+        Name: 
+        m_Value: {fileID: 0}
+    - rid: 6445738762625351813
+      type: {class: 'BlackboardVariable`1[[TMPro.TextMeshProUGUI, Unity.TextMeshPro]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 0
+          m_Value1: 0
+        Name: 
+        m_Value: {fileID: 0}
+    - rid: 6445738762625351814
+      type: {class: 'BlackboardVariable`1[[UnityEngine.UI.Image, UnityEngine.UI]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 0
+          m_Value1: 0
+        Name: 
+        m_Value: {fileID: 0}
+    - rid: 6445738762625351843
+      type: {class: 'TypedVariableModel`1[[UnityEngine.GameObject, UnityEngine.CoreModule]]', ns: Unity.Behavior.GraphFramework, asm: Unity.Behavior.GraphFramework}
+      data:
+        ID:
+          m_Value0: 1
+          m_Value1: 0
+        Name: Self
+        IsExposed: 1
+        m_IsShared: 0
+        m_Value: {fileID: 0}
+    - rid: 6445738762625351881
+      type: {class: 'TypedVariableModel`1[[TMPro.TextMeshProUGUI, Unity.TextMeshPro]]', ns: Unity.Behavior.GraphFramework, asm: Unity.Behavior.GraphFramework}
+      data:
+        ID:
+          m_Value0: 8717429290820611082
+          m_Value1: 11887153143713242795
+        Name: SelfDialogBox
+        IsExposed: 1
+        m_IsShared: 0
+        m_Value: {fileID: 0}
+    - rid: 6445738762625351900
+      type: {class: 'TypedVariableModel`1[[TMPro.TextMeshProUGUI, Unity.TextMeshPro]]', ns: Unity.Behavior.GraphFramework, asm: Unity.Behavior.GraphFramework}
+      data:
+        ID:
+          m_Value0: 11429807477273843547
+          m_Value1: 15981682294120603350
+        Name: SelfNameBox
+        IsExposed: 1
+        m_IsShared: 0
+        m_Value: {fileID: 0}
+    - rid: 6445738762625351919
+      type: {class: 'TypedVariableModel`1[[UnityEngine.UI.Image, UnityEngine.UI]]', ns: Unity.Behavior.GraphFramework, asm: Unity.Behavior.GraphFramework}
+      data:
+        ID:
+          m_Value0: 17335691761457205898
+          m_Value1: 14104649271885143596
+        Name: SelfPortrait
+        IsExposed: 1
+        m_IsShared: 0
+        m_Value: {fileID: 0}
+    - rid: 6445738762625351938
+      type: {class: 'TypedVariableModel`1[[TMPro.TextMeshProUGUI, Unity.TextMeshPro]]', ns: Unity.Behavior.GraphFramework, asm: Unity.Behavior.GraphFramework}
+      data:
+        ID:
+          m_Value0: 18271740437611928113
+          m_Value1: 5491814918917405738
+        Name: TargetDialogBox
+        IsExposed: 1
+        m_IsShared: 0
+        m_Value: {fileID: 0}
+    - rid: 6445738762625351957
+      type: {class: 'TypedVariableModel`1[[TMPro.TextMeshProUGUI, Unity.TextMeshPro]]', ns: Unity.Behavior.GraphFramework, asm: Unity.Behavior.GraphFramework}
+      data:
+        ID:
+          m_Value0: 8515732854284590817
+          m_Value1: 13020984562582965888
+        Name: TargetNameBox
+        IsExposed: 1
+        m_IsShared: 0
+        m_Value: {fileID: 0}
+    - rid: 6445738762625351995
+      type: {class: BehaviorGraphNodeModel/FieldModel, ns: Unity.Behavior, asm: Unity.Behavior.Authoring}
+      data:
+        FieldName: Conversation
+        Type:
+          m_SerializableType: JSONReader, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+            PublicKeyToken=null
+        LocalValue:
+          rid: 6445738762625351996
+        LinkedVariable:
+          rid: 6445738762625351997
+    - rid: 6445738762625351996
+      type: {class: 'BlackboardVariable`1[[JSONReader, Assembly-CSharp]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 0
+          m_Value1: 0
+        Name: 
+        m_Value: {fileID: 0}
+    - rid: 6445738762625351997
+      type: {class: 'TypedVariableModel`1[[JSONReader, Assembly-CSharp]]', ns: Unity.Behavior.GraphFramework, asm: Unity.Behavior.GraphFramework}
+      data:
+        ID:
+          m_Value0: 12860332087085090371
+          m_Value1: 7424629120669840848
+        Name: Messages
+        IsExposed: 1
+        m_IsShared: 0
+        m_Value: {fileID: 0}
+    - rid: 6445738762625352054
+      type: {class: 'TypedVariableModel`1[[UnityEngine.UI.Image, UnityEngine.UI]]', ns: Unity.Behavior.GraphFramework, asm: Unity.Behavior.GraphFramework}
+      data:
+        ID:
+          m_Value0: 12108832972874347703
+          m_Value1: 14201311018593238242
+        Name: TargetPortrait
+        IsExposed: 1
+        m_IsShared: 0
+        m_Value: {fileID: 0}
+    - rid: 6445738762625352089
+      type: {class: StickyNoteModel, ns: Unity.Behavior.GraphFramework, asm: Unity.Behavior.GraphFramework}
+      data:
+        Position: {x: 82.56149, y: 11.225416}
+        ID:
+          m_Value0: 515470984042274746
+          m_Value1: 5061262769532801354
+        Parents: []
+        PortModels: []
+        Text: old system
+    - rid: 6445738762625352107
+      type: {class: StickyNoteModel, ns: Unity.Behavior.GraphFramework, asm: Unity.Behavior.GraphFramework}
+      data:
+        Position: {x: -327.75342, y: 61.839256}
+        ID:
+          m_Value0: 117368835244051680
+          m_Value1: 8815012291978780135
+        Parents: []
+        PortModels: []
+        Text: JSON system
+    - rid: 6445738762625352142
+      type: {class: 'TypedVariableModel`1[[CharacterBase, Assembly-CSharp]]', ns: Unity.Behavior.GraphFramework, asm: Unity.Behavior.GraphFramework}
+      data:
+        ID:
+          m_Value0: 10108344235385807197
+          m_Value1: 3264355818116306250
+        Name: Player
+        IsExposed: 1
+        m_IsShared: 0
+        m_Value: {fileID: 0}
+    - rid: 6445738762625352163
+      type: {class: ActionNodeModel, ns: Unity.Behavior, asm: Unity.Behavior.Authoring}
+      data:
+        Position: {x: -166.81674, y: 137.19862}
+        ID:
+          m_Value0: 13835373625201962174
+          m_Value1: 14360618100004999144
+        Parents: []
+        PortModels:
+        - rid: 6445738762625352164
+        - rid: 6445738762625352165
+        NodeType:
+          m_SerializableType: ConversationAction, Assembly-CSharp, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        NodeTypeID:
+          m_Value0: 4030921537281157851
+          m_Value1: 4423157355141753057
+        m_FieldValues:
+        - rid: 6445738762625352166
+        - rid: 6445738762625352167
+        - rid: 6445738762625352168
+        - rid: 6445738762625352169
+        - rid: 6445738762625352170
+        - rid: 6445738762625352171
+        - rid: 6445738762625352172
+        - rid: 6445738762625352173
+        - rid: 6445738762625352174
+    - rid: 6445738762625352164
+      type: {class: PortModel, ns: Unity.Behavior.GraphFramework, asm: Unity.Behavior.GraphFramework}
+      data:
+        m_Name: InputPort
+        m_PortDataFlowType: 0
+        m_IsFloating: 0
+        m_NodeModel:
+          rid: 6445738762625352163
+        m_Connections:
+        - rid: 6445738762625351778
+    - rid: 6445738762625352165
+      type: {class: PortModel, ns: Unity.Behavior.GraphFramework, asm: Unity.Behavior.GraphFramework}
+      data:
+        m_Name: OutputPort
+        m_PortDataFlowType: 1
+        m_IsFloating: 0
+        m_NodeModel:
+          rid: 6445738762625352163
+        m_Connections: []
+    - rid: 6445738762625352166
+      type: {class: BehaviorGraphNodeModel/FieldModel, ns: Unity.Behavior, asm: Unity.Behavior.Authoring}
+      data:
+        FieldName: Agent
+        Type:
+          m_SerializableType: CharacterBase, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+            PublicKeyToken=null
+        LocalValue:
+          rid: 6445738762625352175
+        LinkedVariable:
+          rid: 6445738762625352176
+    - rid: 6445738762625352167
+      type: {class: BehaviorGraphNodeModel/FieldModel, ns: Unity.Behavior, asm: Unity.Behavior.Authoring}
+      data:
+        FieldName: Target
+        Type:
+          m_SerializableType: CharacterBase, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+            PublicKeyToken=null
+        LocalValue:
+          rid: 6445738762625352177
+        LinkedVariable:
+          rid: 6445738762625352232
+    - rid: 6445738762625352168
+      type: {class: BehaviorGraphNodeModel/FieldModel, ns: Unity.Behavior, asm: Unity.Behavior.Authoring}
+      data:
+        FieldName: Conversation
+        Type:
+          m_SerializableType: JSONReader, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+            PublicKeyToken=null
+        LocalValue:
+          rid: 6445738762625352178
+        LinkedVariable:
+          rid: 6445738762625352278
+    - rid: 6445738762625352169
+      type: {class: BehaviorGraphNodeModel/FieldModel, ns: Unity.Behavior, asm: Unity.Behavior.Authoring}
+      data:
+        FieldName: agentDialogBox
+        Type:
+          m_SerializableType: TMPro.TextMeshProUGUI, Unity.TextMeshPro, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        LocalValue:
+          rid: 6445738762625352180
+        LinkedVariable:
+          rid: 6445738762625352181
+    - rid: 6445738762625352170
+      type: {class: BehaviorGraphNodeModel/FieldModel, ns: Unity.Behavior, asm: Unity.Behavior.Authoring}
+      data:
+        FieldName: agentName
+        Type:
+          m_SerializableType: TMPro.TextMeshProUGUI, Unity.TextMeshPro, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        LocalValue:
+          rid: 6445738762625352182
+        LinkedVariable:
+          rid: 6445738762625352183
+    - rid: 6445738762625352171
+      type: {class: BehaviorGraphNodeModel/FieldModel, ns: Unity.Behavior, asm: Unity.Behavior.Authoring}
+      data:
+        FieldName: agentPortrait
+        Type:
+          m_SerializableType: UnityEngine.UI.Image, UnityEngine.UI, Version=1.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        LocalValue:
+          rid: 6445738762625352184
+        LinkedVariable:
+          rid: 6445738762625352185
+    - rid: 6445738762625352172
+      type: {class: BehaviorGraphNodeModel/FieldModel, ns: Unity.Behavior, asm: Unity.Behavior.Authoring}
+      data:
+        FieldName: targetDialogBox
+        Type:
+          m_SerializableType: TMPro.TextMeshProUGUI, Unity.TextMeshPro, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        LocalValue:
+          rid: 6445738762625352186
+        LinkedVariable:
+          rid: 6445738762625352187
+    - rid: 6445738762625352173
+      type: {class: BehaviorGraphNodeModel/FieldModel, ns: Unity.Behavior, asm: Unity.Behavior.Authoring}
+      data:
+        FieldName: targetName
+        Type:
+          m_SerializableType: TMPro.TextMeshProUGUI, Unity.TextMeshPro, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        LocalValue:
+          rid: 6445738762625352188
+        LinkedVariable:
+          rid: 6445738762625352189
+    - rid: 6445738762625352174
+      type: {class: BehaviorGraphNodeModel/FieldModel, ns: Unity.Behavior, asm: Unity.Behavior.Authoring}
+      data:
+        FieldName: targetPortrait
+        Type:
+          m_SerializableType: UnityEngine.UI.Image, UnityEngine.UI, Version=1.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        LocalValue:
+          rid: 6445738762625352190
+        LinkedVariable:
+          rid: 6445738762625352191
+    - rid: 6445738762625352175
+      type: {class: 'BlackboardVariable`1[[CharacterBase, Assembly-CSharp]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 0
+          m_Value1: 0
+        Name: 
+        m_Value: {fileID: 0}
+    - rid: 6445738762625352176
+      type: {class: 'TypedVariableModel`1[[UnityEngine.GameObject, UnityEngine.CoreModule]]', ns: Unity.Behavior.GraphFramework, asm: Unity.Behavior.GraphFramework}
+      data:
+        ID:
+          m_Value0: 1
+          m_Value1: 0
+        Name: Self
+        IsExposed: 1
+        m_IsShared: 0
+        m_Value: {fileID: 0}
+    - rid: 6445738762625352177
+      type: {class: 'BlackboardVariable`1[[CharacterBase, Assembly-CSharp]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 0
+          m_Value1: 0
+        Name: 
+        m_Value: {fileID: 0}
+    - rid: 6445738762625352178
+      type: {class: 'BlackboardVariable`1[[JSONReader, Assembly-CSharp]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 0
+          m_Value1: 0
+        Name: 
+        m_Value: {fileID: 0}
+    - rid: 6445738762625352180
+      type: {class: 'BlackboardVariable`1[[TMPro.TextMeshProUGUI, Unity.TextMeshPro]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 0
+          m_Value1: 0
+        Name: 
+        m_Value: {fileID: 0}
+    - rid: 6445738762625352181
+      type: {class: 'TypedVariableModel`1[[TMPro.TextMeshProUGUI, Unity.TextMeshPro]]', ns: Unity.Behavior.GraphFramework, asm: Unity.Behavior.GraphFramework}
+      data:
+        ID:
+          m_Value0: 8717429290820611082
+          m_Value1: 11887153143713242795
+        Name: SelfDialogBox
+        IsExposed: 1
+        m_IsShared: 0
+        m_Value: {fileID: 0}
+    - rid: 6445738762625352182
+      type: {class: 'BlackboardVariable`1[[TMPro.TextMeshProUGUI, Unity.TextMeshPro]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 0
+          m_Value1: 0
+        Name: 
+        m_Value: {fileID: 0}
+    - rid: 6445738762625352183
+      type: {class: 'TypedVariableModel`1[[TMPro.TextMeshProUGUI, Unity.TextMeshPro]]', ns: Unity.Behavior.GraphFramework, asm: Unity.Behavior.GraphFramework}
+      data:
+        ID:
+          m_Value0: 11429807477273843547
+          m_Value1: 15981682294120603350
+        Name: SelfNameBox
+        IsExposed: 1
+        m_IsShared: 0
+        m_Value: {fileID: 0}
+    - rid: 6445738762625352184
+      type: {class: 'BlackboardVariable`1[[UnityEngine.UI.Image, UnityEngine.UI]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 0
+          m_Value1: 0
+        Name: 
+        m_Value: {fileID: 0}
+    - rid: 6445738762625352185
+      type: {class: 'TypedVariableModel`1[[UnityEngine.UI.Image, UnityEngine.UI]]', ns: Unity.Behavior.GraphFramework, asm: Unity.Behavior.GraphFramework}
+      data:
+        ID:
+          m_Value0: 17335691761457205898
+          m_Value1: 14104649271885143596
+        Name: SelfPortrait
+        IsExposed: 1
+        m_IsShared: 0
+        m_Value: {fileID: 0}
+    - rid: 6445738762625352186
+      type: {class: 'BlackboardVariable`1[[TMPro.TextMeshProUGUI, Unity.TextMeshPro]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 0
+          m_Value1: 0
+        Name: 
+        m_Value: {fileID: 0}
+    - rid: 6445738762625352187
+      type: {class: 'TypedVariableModel`1[[TMPro.TextMeshProUGUI, Unity.TextMeshPro]]', ns: Unity.Behavior.GraphFramework, asm: Unity.Behavior.GraphFramework}
+      data:
+        ID:
+          m_Value0: 18271740437611928113
+          m_Value1: 5491814918917405738
+        Name: TargetDialogBox
+        IsExposed: 1
+        m_IsShared: 0
+        m_Value: {fileID: 0}
+    - rid: 6445738762625352188
+      type: {class: 'BlackboardVariable`1[[TMPro.TextMeshProUGUI, Unity.TextMeshPro]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 0
+          m_Value1: 0
+        Name: 
+        m_Value: {fileID: 0}
+    - rid: 6445738762625352189
+      type: {class: 'TypedVariableModel`1[[TMPro.TextMeshProUGUI, Unity.TextMeshPro]]', ns: Unity.Behavior.GraphFramework, asm: Unity.Behavior.GraphFramework}
+      data:
+        ID:
+          m_Value0: 8515732854284590817
+          m_Value1: 13020984562582965888
+        Name: TargetNameBox
+        IsExposed: 1
+        m_IsShared: 0
+        m_Value: {fileID: 0}
+    - rid: 6445738762625352190
+      type: {class: 'BlackboardVariable`1[[UnityEngine.UI.Image, UnityEngine.UI]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 0
+          m_Value1: 0
+        Name: 
+        m_Value: {fileID: 0}
+    - rid: 6445738762625352191
+      type: {class: 'TypedVariableModel`1[[UnityEngine.UI.Image, UnityEngine.UI]]', ns: Unity.Behavior.GraphFramework, asm: Unity.Behavior.GraphFramework}
+      data:
+        ID:
+          m_Value0: 12108832972874347703
+          m_Value1: 14201311018593238242
+        Name: TargetPortrait
+        IsExposed: 1
+        m_IsShared: 0
+        m_Value: {fileID: 0}
+    - rid: 6445738762625352232
+      type: {class: 'TypedVariableModel`1[[CharacterBase, Assembly-CSharp]]', ns: Unity.Behavior.GraphFramework, asm: Unity.Behavior.GraphFramework}
+      data:
+        ID:
+          m_Value0: 10846031903585127729
+          m_Value1: 1681911373270724074
+        Name: Target
+        IsExposed: 1
+        m_IsShared: 0
+        m_Value: {fileID: 0}
+    - rid: 6445738762625352278
+      type: {class: 'TypedVariableModel`1[[JSONReader, Assembly-CSharp]]', ns: Unity.Behavior.GraphFramework, asm: Unity.Behavior.GraphFramework}
+      data:
+        ID:
+          m_Value0: 3252378325471085911
+          m_Value1: 16398537705718655655
+        Name: Messages2
+        IsExposed: 1
+        m_IsShared: 0
+        m_Value: {fileID: 0}
 --- !u!114 &2811048990790056969
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1322,14 +1947,16 @@ MonoBehaviour:
   m_Variables:
   - rid: 3098273754418774205
   - rid: 3098273800147173656
+  - rid: 6445738762625352143
   - rid: 3098273800147173611
   - rid: 3098273800147173707
   - rid: 3098273800147173721
   - rid: 6445738760877638449
   - rid: 3098273800147173736
   - rid: 3098273800147173780
-  - rid: 6445738760877638192
-  m_VersionTimestamp: 638906127464531568
+  - rid: 6445738762625351757
+  - rid: 6445738762625352254
+  m_VersionTimestamp: 638906222571386188
   m_CommandBuffer:
     m_Commands: []
   m_RuntimeBlackboardAsset: {fileID: 3980725057169886898}
@@ -1362,7 +1989,7 @@ MonoBehaviour:
         ID:
           m_Value0: 10108344235385807197
           m_Value1: 3264355818116306250
-        Name: Taget
+        Name: Player
         IsExposed: 1
         m_IsShared: 0
         m_Value: {fileID: 0}
@@ -1406,16 +2033,6 @@ MonoBehaviour:
         IsExposed: 1
         m_IsShared: 0
         m_Value: {fileID: 0}
-    - rid: 6445738760877638192
-      type: {class: 'TypedVariableModel`1[[System.Boolean, mscorlib]]', ns: Unity.Behavior.GraphFramework, asm: Unity.Behavior.GraphFramework}
-      data:
-        ID:
-          m_Value0: 10049009883720031251
-          m_Value1: 1646004231254412851
-        Name: bool test
-        IsExposed: 1
-        m_IsShared: 0
-        m_Value: 0
     - rid: 6445738760877638449
       type: {class: 'TypedVariableModel`1[[TMPro.TextMeshProUGUI, Unity.TextMeshPro]]', ns: Unity.Behavior.GraphFramework, asm: Unity.Behavior.GraphFramework}
       data:
@@ -1423,6 +2040,36 @@ MonoBehaviour:
           m_Value0: 18271740437611928113
           m_Value1: 5491814918917405738
         Name: TargetDialogBox
+        IsExposed: 1
+        m_IsShared: 0
+        m_Value: {fileID: 0}
+    - rid: 6445738762625351757
+      type: {class: 'TypedVariableModel`1[[JSONReader, Assembly-CSharp]]', ns: Unity.Behavior.GraphFramework, asm: Unity.Behavior.GraphFramework}
+      data:
+        ID:
+          m_Value0: 12860332087085090371
+          m_Value1: 7424629120669840848
+        Name: Messages
+        IsExposed: 1
+        m_IsShared: 0
+        m_Value: {fileID: 0}
+    - rid: 6445738762625352143
+      type: {class: 'TypedVariableModel`1[[CharacterBase, Assembly-CSharp]]', ns: Unity.Behavior.GraphFramework, asm: Unity.Behavior.GraphFramework}
+      data:
+        ID:
+          m_Value0: 10846031903585127729
+          m_Value1: 1681911373270724074
+        Name: Target
+        IsExposed: 1
+        m_IsShared: 0
+        m_Value: {fileID: 0}
+    - rid: 6445738762625352254
+      type: {class: 'TypedVariableModel`1[[JSONReader, Assembly-CSharp]]', ns: Unity.Behavior.GraphFramework, asm: Unity.Behavior.GraphFramework}
+      data:
+        ID:
+          m_Value0: 3252378325471085911
+          m_Value1: 16398537705718655655
+        Name: Messages2
         IsExposed: 1
         m_IsShared: 0
         m_Value: {fileID: 0}
@@ -1438,7 +2085,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c02bb70996b49eba31d0c206e28da24, type: 3}
   m_Name: DialogGraph Blackboard
   m_EditorClassIdentifier: 
-  VersionTimestamp: 638906127464531568
+  VersionTimestamp: 638906222571386188
   AssetID:
     m_Value0: 13034492198694760539
     m_Value1: 6315928980686265193
@@ -1446,13 +2093,15 @@ MonoBehaviour:
     m_Variables:
     - rid: 3098273754418774214
     - rid: 3098273800147173668
+    - rid: 6445738762625352162
     - rid: 3098273800147173622
     - rid: 3098273800147173720
     - rid: 3098273800147173735
     - rid: 6445738760877638472
     - rid: 3098273800147173751
     - rid: 3098273800147173796
-    - rid: 6445738760877638213
+    - rid: 6445738762625351774
+    - rid: 6445738762625352277
   m_SharedBlackboardVariableGuids: []
   references:
     version: 2
@@ -1479,7 +2128,7 @@ MonoBehaviour:
         GUID:
           m_Value0: 10108344235385807197
           m_Value1: 3264355818116306250
-        Name: Taget
+        Name: Player
         m_Value: {fileID: 0}
     - rid: 3098273800147173720
       type: {class: 'BlackboardVariable`1[[TMPro.TextMeshProUGUI, Unity.TextMeshPro]]', ns: Unity.Behavior, asm: Unity.Behavior}
@@ -1513,14 +2162,6 @@ MonoBehaviour:
           m_Value1: 14201311018593238242
         Name: TargetPortrait
         m_Value: {fileID: 0}
-    - rid: 6445738760877638213
-      type: {class: 'BlackboardVariable`1[[System.Boolean, mscorlib]]', ns: Unity.Behavior, asm: Unity.Behavior}
-      data:
-        GUID:
-          m_Value0: 10049009883720031251
-          m_Value1: 1646004231254412851
-        Name: bool test
-        m_Value: 0
     - rid: 6445738760877638472
       type: {class: 'BlackboardVariable`1[[TMPro.TextMeshProUGUI, Unity.TextMeshPro]]', ns: Unity.Behavior, asm: Unity.Behavior}
       data:
@@ -1528,6 +2169,30 @@ MonoBehaviour:
           m_Value0: 18271740437611928113
           m_Value1: 5491814918917405738
         Name: TargetDialogBox
+        m_Value: {fileID: 0}
+    - rid: 6445738762625351774
+      type: {class: 'BlackboardVariable`1[[JSONReader, Assembly-CSharp]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 12860332087085090371
+          m_Value1: 7424629120669840848
+        Name: Messages
+        m_Value: {fileID: 0}
+    - rid: 6445738762625352162
+      type: {class: 'BlackboardVariable`1[[CharacterBase, Assembly-CSharp]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 10846031903585127729
+          m_Value1: 1681911373270724074
+        Name: Target
+        m_Value: {fileID: 0}
+    - rid: 6445738762625352277
+      type: {class: 'BlackboardVariable`1[[JSONReader, Assembly-CSharp]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 3252378325471085911
+          m_Value1: 16398537705718655655
+        Name: Messages2
         m_Value: {fileID: 0}
 --- !u!114 &7904998014351526526
 MonoBehaviour:

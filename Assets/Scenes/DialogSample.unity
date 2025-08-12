@@ -1175,6 +1175,227 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1664999984}
   m_CullTransparentMesh: 1
+--- !u!1 &1833761777
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1833761782}
+  - component: {fileID: 1833761781}
+  - component: {fileID: 1833761780}
+  - component: {fileID: 1833761779}
+  - component: {fileID: 1833761778}
+  m_Layer: 0
+  m_Name: NPC2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1833761778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1833761777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3782a8ddab35db547bf89e30b6948845, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textJSON: {fileID: 4900000, guid: c189ec1f4428ce44a8933399d916dff8, type: 3}
+  myMessageList:
+    message: []
+--- !u!114 &1833761779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1833761777}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0038c16c34866b4f9e25c9c0dc0f7e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Graph: {fileID: -3186776331243684156, guid: 5b30cd5298d1e3b4695b66d8f1afa657, type: 2}
+  m_BlackboardVariableOverridesList:
+  - rid: 3098273800147173592
+  - rid: 3098273800147173623
+  - rid: 3098273800147173670
+  - rid: 3098273800147173861
+  - rid: 3098273800147173862
+  - rid: 3098273800147173863
+  - rid: 3098273800147173864
+  - rid: 6445738760877638495
+  - rid: 6445738762625352035
+  m_IsInitialised: 0
+  m_IsStarted: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 3098273800147173592
+      type: {class: 'BlackboardVariable`1[[UnityEngine.GameObject, UnityEngine.CoreModule]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 1
+          m_Value1: 0
+        Name: Self
+        m_Value: {fileID: 1833761777}
+    - rid: 3098273800147173623
+      type: {class: 'BlackboardVariable`1[[TMPro.TextMeshProUGUI, Unity.TextMeshPro]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 8717429290820611082
+          m_Value1: 11887153143713242795
+        Name: SelfDialogBox
+        m_Value: {fileID: 867514701}
+    - rid: 3098273800147173670
+      type: {class: 'BlackboardVariable`1[[CharacterBase, Assembly-CSharp]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 10108344235385807197
+          m_Value1: 3264355818116306250
+        Name: Player
+        m_Value: {fileID: 1907925581}
+    - rid: 3098273800147173861
+      type: {class: 'BlackboardVariable`1[[TMPro.TextMeshProUGUI, Unity.TextMeshPro]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 11429807477273843547
+          m_Value1: 15981682294120603350
+        Name: SelfNameBox
+        m_Value: {fileID: 1957981936}
+    - rid: 3098273800147173862
+      type: {class: 'BlackboardVariable`1[[UnityEngine.UI.Image, UnityEngine.UI]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 17335691761457205898
+          m_Value1: 14104649271885143596
+        Name: SelfPortrait
+        m_Value: {fileID: 1321605007}
+    - rid: 3098273800147173863
+      type: {class: 'BlackboardVariable`1[[TMPro.TextMeshProUGUI, Unity.TextMeshPro]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 8515732854284590817
+          m_Value1: 13020984562582965888
+        Name: TargetNameBox
+        m_Value: {fileID: 2014592960}
+    - rid: 3098273800147173864
+      type: {class: 'BlackboardVariable`1[[UnityEngine.UI.Image, UnityEngine.UI]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 12108832972874347703
+          m_Value1: 14201311018593238242
+        Name: TargetPortrait
+        m_Value: {fileID: 320400962}
+    - rid: 6445738760877638495
+      type: {class: 'BlackboardVariable`1[[TMPro.TextMeshProUGUI, Unity.TextMeshPro]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 18271740437611928113
+          m_Value1: 5491814918917405738
+        Name: TargetDialogBox
+        m_Value: {fileID: 1664999987}
+    - rid: 6445738762625352035
+      type: {class: 'BlackboardVariable`1[[JSONReader, Assembly-CSharp]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 12860332087085090371
+          m_Value1: 7424629120669840848
+        Name: Messages
+        m_Value: {fileID: 1833761778}
+--- !u!114 &1833761780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1833761777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a289ebdaf101ced4db223eb720e48f59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isPlayer: 0
+  charPortrait: {fileID: 21300000, guid: 9568ab752a1abc4409a476aad6933488, type: 3}
+  charName: blue
+  textColour: {r: 0, g: 1, b: 1, a: 1}
+--- !u!212 &1833761781
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1833761777}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 8d856612110d7304d8e622c60cef35d1, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 12.8, y: 12.8}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &1833761782
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1833761777}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.32, y: 8.17, z: -5.659231}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1859221083
 GameObject:
   m_ObjectHideFlags: 0
@@ -1391,7 +1612,7 @@ MonoBehaviour:
   isPlayer: 1
   charPortrait: {fileID: 21300000, guid: 8d856612110d7304d8e622c60cef35d1, type: 3}
   charName: player
-  textColour: {r: 1, g: 0, b: 0, a: 1}
+  textColour: {r: 0, g: 0, b: 0, a: 1}
 --- !u!212 &1907925582
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1848,6 +2069,7 @@ GameObject:
   - component: {fileID: 2085887340}
   - component: {fileID: 2085887339}
   - component: {fileID: 2085887342}
+  - component: {fileID: 2085887343}
   m_Layer: 0
   m_Name: NPC1
   m_TagString: Untagged
@@ -1869,8 +2091,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isPlayer: 0
   charPortrait: {fileID: 21300000, guid: bf813f954ef43264a95d13ca91859509, type: 3}
-  charName: npc
-  textColour: {r: 0, g: 0, b: 0, a: 1}
+  charName: orange
+  textColour: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!212 &2085887340
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1963,6 +2185,9 @@ MonoBehaviour:
   - rid: 3098273800147173863
   - rid: 3098273800147173864
   - rid: 6445738760877638495
+  - rid: 6445738762625352035
+  - rid: 6445738762625352231
+  - rid: 6445738762625352323
   m_IsInitialised: 0
   m_IsStarted: 0
   references:
@@ -1990,7 +2215,7 @@ MonoBehaviour:
         GUID:
           m_Value0: 10108344235385807197
           m_Value1: 3264355818116306250
-        Name: Taget
+        Name: Player
         m_Value: {fileID: 1907925581}
     - rid: 3098273800147173861
       type: {class: 'BlackboardVariable`1[[TMPro.TextMeshProUGUI, Unity.TextMeshPro]]', ns: Unity.Behavior, asm: Unity.Behavior}
@@ -2032,6 +2257,45 @@ MonoBehaviour:
           m_Value1: 5491814918917405738
         Name: TargetDialogBox
         m_Value: {fileID: 1664999987}
+    - rid: 6445738762625352035
+      type: {class: 'BlackboardVariable`1[[JSONReader, Assembly-CSharp]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 12860332087085090371
+          m_Value1: 7424629120669840848
+        Name: Messages
+        m_Value: {fileID: 2085887343}
+    - rid: 6445738762625352231
+      type: {class: 'BlackboardVariable`1[[CharacterBase, Assembly-CSharp]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 10846031903585127729
+          m_Value1: 1681911373270724074
+        Name: Target
+        m_Value: {fileID: 1833761780}
+    - rid: 6445738762625352323
+      type: {class: 'BlackboardVariable`1[[JSONReader, Assembly-CSharp]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 3252378325471085911
+          m_Value1: 16398537705718655655
+        Name: Messages2
+        m_Value: {fileID: 1833761778}
+--- !u!114 &2085887343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2085887338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3782a8ddab35db547bf89e30b6948845, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textJSON: {fileID: 4900000, guid: 81183c0ad0903e947804e10be7dff801, type: 3}
+  myMessageList:
+    message: []
 --- !u!1 &2138873441
 GameObject:
   m_ObjectHideFlags: 0
@@ -2149,6 +2413,7 @@ SceneRoots:
   - {fileID: 1000183839}
   - {fileID: 2138873445}
   - {fileID: 2085887341}
+  - {fileID: 1833761782}
   - {fileID: 1907925583}
   - {fileID: 1972191660}
   - {fileID: 1889804181}

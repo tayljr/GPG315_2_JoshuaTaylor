@@ -16,7 +16,6 @@ public partial class TalkAction : Action
     [Tooltip("What they are saying.")]
     [SerializeReference] public BlackboardVariable<string> _text;
 
-    [Tooltip("Who they are talking to.")]
     [SerializeReference] public BlackboardVariable<CharacterBase> target;
 
     [Tooltip("The TMP text to change")]
