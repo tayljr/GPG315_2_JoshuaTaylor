@@ -28,7 +28,7 @@ MonoBehaviour:
         AuthoringAssetID:
           m_Value0: 13034492198694760539
           m_Value1: 6315928980686265193
-        m_DebugInfo: {fileID: 0}
+        m_DebugInfo: {fileID: 7904998014351526526}
         BlackboardReference:
           rid: 6445738853838094466
         BlackboardGroupReferences: []
@@ -40,7 +40,7 @@ MonoBehaviour:
           rid: 6445738853838094468
         m_EndedNodes:
           rid: 6445738853838094469
-        m_VersionTimestamp: 638909738598989422
+        m_VersionTimestamp: 638909765658842287
     - rid: 6445738853838094466
       type: {class: BlackboardReference, ns: Unity.Behavior, asm: Unity.Behavior}
       data:
@@ -283,7 +283,7 @@ MonoBehaviour:
   - rid: 6445738762625352089
   - rid: 6445738762625352107
   - rid: 6445738762625352163
-  m_VersionTimestamp: 638909738598989422
+  m_VersionTimestamp: 638909765658842287
   m_DebugInfo: {fileID: 7904998014351526526}
   m_RuntimeGraph: {fileID: -3186776331243684156}
   AssetID:
@@ -977,7 +977,7 @@ MonoBehaviour:
     - rid: 6445738761541648960
       type: {class: SequenceNodeModel, ns: Unity.Behavior.GraphFramework, asm: Unity.Behavior.GraphFramework}
       data:
-        Position: {x: 230.92719, y: -204.05078}
+        Position: {x: -170.67308, y: 259.94946}
         ID:
           m_Value0: 4798464333555291809
           m_Value1: 1757759238270918911
@@ -1297,7 +1297,7 @@ MonoBehaviour:
     - rid: 6445738762625351776
       type: {class: ActionNodeModel, ns: Unity.Behavior, asm: Unity.Behavior.Authoring}
       data:
-        Position: {x: -166.29974, y: 50.249886}
+        Position: {x: -166.29974, y: 49.109398}
         ID:
           m_Value0: 8631415247150666758
           m_Value1: 10390650121283584483
@@ -1595,7 +1595,7 @@ MonoBehaviour:
     - rid: 6445738762625352089
       type: {class: StickyNoteModel, ns: Unity.Behavior.GraphFramework, asm: Unity.Behavior.GraphFramework}
       data:
-        Position: {x: 82.56149, y: 11.225416}
+        Position: {x: 212.16154, y: 92.02545}
         ID:
           m_Value0: 515470984042274746
           m_Value1: 5061262769532801354
