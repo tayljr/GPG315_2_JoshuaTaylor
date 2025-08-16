@@ -10,19 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: db920e62f70f420bb33c771449926fa4, type: 3}
-  m_Name: DialogGraph
+  m_Name: SampleDialogGraph
   m_EditorClassIdentifier: 
   Graphs:
-  - rid: 6445738762625352368
+  - rid: 6445738853838094465
   RootGraph:
-    rid: 6445738762625352368
+    rid: 6445738853838094465
   m_DebugInfo: {fileID: 7904998014351526526}
   references:
     version: 2
     RefIds:
     - rid: -2
       type: {class: , ns: , asm: }
-    - rid: 6445738762625352368
+    - rid: 6445738853838094465
       type: {class: BehaviorGraphModule, ns: Unity.Behavior, asm: Unity.Behavior}
       data:
         AuthoringAssetID:
@@ -30,72 +30,72 @@ MonoBehaviour:
           m_Value1: 6315928980686265193
         m_DebugInfo: {fileID: 0}
         BlackboardReference:
-          rid: 6445738762625352369
+          rid: 6445738853838094466
         BlackboardGroupReferences: []
         Root:
-          rid: 6445738762625352370
+          rid: 6445738853838094467
         m_ActiveNodes: []
         m_NodesToTick: []
         m_NodesToEnd:
-          rid: 6445738762625352371
+          rid: 6445738853838094468
         m_EndedNodes:
-          rid: 6445738762625352372
-        m_VersionTimestamp: 638906225389575881
-    - rid: 6445738762625352369
+          rid: 6445738853838094469
+        m_VersionTimestamp: 638909738598989422
+    - rid: 6445738853838094466
       type: {class: BlackboardReference, ns: Unity.Behavior, asm: Unity.Behavior}
       data:
         m_Blackboard:
-          rid: 6445738762625352373
+          rid: 6445738853838094470
         m_Source: {fileID: 3980725057169886898}
-    - rid: 6445738762625352370
+    - rid: 6445738853838094467
       type: {class: Start, ns: Unity.Behavior, asm: Unity.Behavior}
       data:
         ID:
           m_Value0: 13535518261897634341
           m_Value1: 13708717518321774155
         Graph:
-          rid: 6445738762625352368
+          rid: 6445738853838094465
         m_Parent:
           rid: -2
         m_Child:
-          rid: 6445738762625352374
+          rid: 6445738853838094471
         Repeat: 1
         AllowMultipleRepeatsPerTick: 0
-    - rid: 6445738762625352371
+    - rid: 6445738853838094468
       type: {class: 'Stack`1[[Unity.Behavior.Node, Unity.Behavior]]', ns: System.Collections.Generic, asm: mscorlib}
       data: 
-    - rid: 6445738762625352372
+    - rid: 6445738853838094469
       type: {class: 'HashSet`1[[Unity.Behavior.Node, Unity.Behavior]]', ns: System.Collections.Generic, asm: System.Core}
       data: 
-    - rid: 6445738762625352373
+    - rid: 6445738853838094470
       type: {class: Blackboard, ns: Unity.Behavior, asm: Unity.Behavior}
       data:
         m_Variables:
-        - rid: 6445738762625352375
-        - rid: 6445738762625352376
-        - rid: 6445738762625352377
-        - rid: 6445738762625352378
-        - rid: 6445738762625352379
-        - rid: 6445738762625352380
-        - rid: 6445738762625352381
-        - rid: 6445738762625352382
-        - rid: 6445738762625352383
-        - rid: 6445738762625352384
-        - rid: 6445738762625352385
-    - rid: 6445738762625352374
+        - rid: 6445738853838094472
+        - rid: 6445738853838094473
+        - rid: 6445738853838094474
+        - rid: 6445738853838094475
+        - rid: 6445738853838094476
+        - rid: 6445738853838094477
+        - rid: 6445738853838094478
+        - rid: 6445738853838094479
+        - rid: 6445738853838094480
+        - rid: 6445738853838094481
+        - rid: 6445738853838094482
+    - rid: 6445738853838094471
       type: {class: SequenceComposite, ns: Unity.Behavior, asm: Unity.Behavior}
       data:
         ID:
           m_Value0: 8631415247150666758
           m_Value1: 10390650121283584483
         Graph:
-          rid: 6445738762625352368
+          rid: 6445738853838094465
         m_Parent:
-          rid: 6445738762625352370
+          rid: 6445738853838094467
         m_Children:
-        - rid: 6445738762625352386
-        - rid: 6445738762625352387
-    - rid: 6445738762625352375
+        - rid: 6445738853838094483
+        - rid: 6445738853838094484
+    - rid: 6445738853838094472
       type: {class: 'BlackboardVariable`1[[UnityEngine.GameObject, UnityEngine.CoreModule]]', ns: Unity.Behavior, asm: Unity.Behavior}
       data:
         GUID:
@@ -103,7 +103,7 @@ MonoBehaviour:
           m_Value1: 0
         Name: Self
         m_Value: {fileID: 0}
-    - rid: 6445738762625352376
+    - rid: 6445738853838094473
       type: {class: 'BlackboardVariable`1[[CharacterBase, Assembly-CSharp]]', ns: Unity.Behavior, asm: Unity.Behavior}
       data:
         GUID:
@@ -111,7 +111,7 @@ MonoBehaviour:
           m_Value1: 3264355818116306250
         Name: Player
         m_Value: {fileID: 0}
-    - rid: 6445738762625352377
+    - rid: 6445738853838094474
       type: {class: 'BlackboardVariable`1[[CharacterBase, Assembly-CSharp]]', ns: Unity.Behavior, asm: Unity.Behavior}
       data:
         GUID:
@@ -119,7 +119,7 @@ MonoBehaviour:
           m_Value1: 1681911373270724074
         Name: Target
         m_Value: {fileID: 0}
-    - rid: 6445738762625352378
+    - rid: 6445738853838094475
       type: {class: 'BlackboardVariable`1[[TMPro.TextMeshProUGUI, Unity.TextMeshPro]]', ns: Unity.Behavior, asm: Unity.Behavior}
       data:
         GUID:
@@ -127,7 +127,7 @@ MonoBehaviour:
           m_Value1: 11887153143713242795
         Name: SelfDialogBox
         m_Value: {fileID: 0}
-    - rid: 6445738762625352379
+    - rid: 6445738853838094476
       type: {class: 'BlackboardVariable`1[[TMPro.TextMeshProUGUI, Unity.TextMeshPro]]', ns: Unity.Behavior, asm: Unity.Behavior}
       data:
         GUID:
@@ -135,7 +135,7 @@ MonoBehaviour:
           m_Value1: 15981682294120603350
         Name: SelfNameBox
         m_Value: {fileID: 0}
-    - rid: 6445738762625352380
+    - rid: 6445738853838094477
       type: {class: 'BlackboardVariable`1[[UnityEngine.UI.Image, UnityEngine.UI]]', ns: Unity.Behavior, asm: Unity.Behavior}
       data:
         GUID:
@@ -143,7 +143,7 @@ MonoBehaviour:
           m_Value1: 14104649271885143596
         Name: SelfPortrait
         m_Value: {fileID: 0}
-    - rid: 6445738762625352381
+    - rid: 6445738853838094478
       type: {class: 'BlackboardVariable`1[[TMPro.TextMeshProUGUI, Unity.TextMeshPro]]', ns: Unity.Behavior, asm: Unity.Behavior}
       data:
         GUID:
@@ -151,7 +151,7 @@ MonoBehaviour:
           m_Value1: 5491814918917405738
         Name: TargetDialogBox
         m_Value: {fileID: 0}
-    - rid: 6445738762625352382
+    - rid: 6445738853838094479
       type: {class: 'BlackboardVariable`1[[TMPro.TextMeshProUGUI, Unity.TextMeshPro]]', ns: Unity.Behavior, asm: Unity.Behavior}
       data:
         GUID:
@@ -159,7 +159,7 @@ MonoBehaviour:
           m_Value1: 13020984562582965888
         Name: TargetNameBox
         m_Value: {fileID: 0}
-    - rid: 6445738762625352383
+    - rid: 6445738853838094480
       type: {class: 'BlackboardVariable`1[[UnityEngine.UI.Image, UnityEngine.UI]]', ns: Unity.Behavior, asm: Unity.Behavior}
       data:
         GUID:
@@ -167,7 +167,7 @@ MonoBehaviour:
           m_Value1: 14201311018593238242
         Name: TargetPortrait
         m_Value: {fileID: 0}
-    - rid: 6445738762625352384
+    - rid: 6445738853838094481
       type: {class: 'BlackboardVariable`1[[JSONReader, Assembly-CSharp]]', ns: Unity.Behavior, asm: Unity.Behavior}
       data:
         GUID:
@@ -175,7 +175,7 @@ MonoBehaviour:
           m_Value1: 7424629120669840848
         Name: Messages
         m_Value: {fileID: 0}
-    - rid: 6445738762625352385
+    - rid: 6445738853838094482
       type: {class: 'BlackboardVariable`1[[JSONReader, Assembly-CSharp]]', ns: Unity.Behavior, asm: Unity.Behavior}
       data:
         GUID:
@@ -183,63 +183,63 @@ MonoBehaviour:
           m_Value1: 16398537705718655655
         Name: Messages2
         m_Value: {fileID: 0}
-    - rid: 6445738762625352386
+    - rid: 6445738853838094483
       type: {class: ConversationAction, ns: , asm: Assembly-CSharp}
       data:
         ID:
           m_Value0: 8631415247150666758
           m_Value1: 10390650121283584483
         Graph:
-          rid: 6445738762625352368
+          rid: 6445738853838094465
         m_Parent:
-          rid: 6445738762625352374
+          rid: 6445738853838094471
         Agent:
-          rid: 6445738762625352388
+          rid: 6445738853838094485
         Target:
-          rid: 6445738762625352376
+          rid: 6445738853838094473
         Conversation:
-          rid: 6445738762625352384
+          rid: 6445738853838094481
         agentDialogBox:
-          rid: 6445738762625352378
+          rid: 6445738853838094475
         agentName:
-          rid: 6445738762625352379
+          rid: 6445738853838094476
         agentPortrait:
-          rid: 6445738762625352380
+          rid: 6445738853838094477
         targetDialogBox:
-          rid: 6445738762625352381
+          rid: 6445738853838094478
         targetName:
-          rid: 6445738762625352382
+          rid: 6445738853838094479
         targetPortrait:
-          rid: 6445738762625352383
-    - rid: 6445738762625352387
+          rid: 6445738853838094480
+    - rid: 6445738853838094484
       type: {class: ConversationAction, ns: , asm: Assembly-CSharp}
       data:
         ID:
           m_Value0: 13835373625201962174
           m_Value1: 14360618100004999144
         Graph:
-          rid: 6445738762625352368
+          rid: 6445738853838094465
         m_Parent:
-          rid: 6445738762625352374
+          rid: 6445738853838094471
         Agent:
-          rid: 6445738762625352389
+          rid: 6445738853838094486
         Target:
-          rid: 6445738762625352377
+          rid: 6445738853838094474
         Conversation:
-          rid: 6445738762625352385
+          rid: 6445738853838094482
         agentDialogBox:
-          rid: 6445738762625352378
+          rid: 6445738853838094475
         agentName:
-          rid: 6445738762625352379
+          rid: 6445738853838094476
         agentPortrait:
-          rid: 6445738762625352380
+          rid: 6445738853838094477
         targetDialogBox:
-          rid: 6445738762625352381
+          rid: 6445738853838094478
         targetName:
-          rid: 6445738762625352382
+          rid: 6445738853838094479
         targetPortrait:
-          rid: 6445738762625352383
-    - rid: 6445738762625352388
+          rid: 6445738853838094480
+    - rid: 6445738853838094485
       type: {class: 'GameObjectToComponentBlackboardVariable`1[[CharacterBase, Assembly-CSharp]]', ns: Unity.Behavior, asm: Unity.Behavior}
       data:
         GUID:
@@ -248,8 +248,8 @@ MonoBehaviour:
         Name: 
         m_Value: {fileID: 0}
         m_LinkedVariable:
-          rid: 6445738762625352375
-    - rid: 6445738762625352389
+          rid: 6445738853838094472
+    - rid: 6445738853838094486
       type: {class: 'GameObjectToComponentBlackboardVariable`1[[CharacterBase, Assembly-CSharp]]', ns: Unity.Behavior, asm: Unity.Behavior}
       data:
         GUID:
@@ -258,7 +258,7 @@ MonoBehaviour:
         Name: 
         m_Value: {fileID: 0}
         m_LinkedVariable:
-          rid: 6445738762625352375
+          rid: 6445738853838094472
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -269,7 +269,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bad8f2220607dac4db5082ff333fafb8, type: 3}
-  m_Name: DialogGraph
+  m_Name: SampleDialogGraph
   m_EditorClassIdentifier: 
   Blackboard: {fileID: 2811048990790056969}
   m_Description: 
@@ -283,7 +283,7 @@ MonoBehaviour:
   - rid: 6445738762625352089
   - rid: 6445738762625352107
   - rid: 6445738762625352163
-  m_VersionTimestamp: 638906225389575881
+  m_VersionTimestamp: 638909738598989422
   m_DebugInfo: {fileID: 7904998014351526526}
   m_RuntimeGraph: {fileID: -3186776331243684156}
   AssetID:
@@ -473,7 +473,7 @@ MonoBehaviour:
     - rid: 3098273754418774230
       type: {class: ActionNodeModel, ns: Unity.Behavior, asm: Unity.Behavior.Authoring}
       data:
-        Position: {x: -332.79913, y: 154.60004}
+        Position: {x: 269.41492, y: 46.38729}
         ID:
           m_Value0: 1107528557635811829
           m_Value1: 1256829984908193134
@@ -977,7 +977,7 @@ MonoBehaviour:
     - rid: 6445738761541648960
       type: {class: SequenceNodeModel, ns: Unity.Behavior.GraphFramework, asm: Unity.Behavior.GraphFramework}
       data:
-        Position: {x: 218.84467, y: 44.190464}
+        Position: {x: 230.92719, y: -204.05078}
         ID:
           m_Value0: 4798464333555291809
           m_Value1: 1757759238270918911
@@ -1939,7 +1939,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2dd922ae02c94c87a66e46a10a7319b9, type: 3}
-  m_Name: DialogGraph Blackboard
+  m_Name: SampleDialogGraph Blackboard
   m_EditorClassIdentifier: 
   AssetID:
     m_Value0: 13034492198694760539
@@ -2083,7 +2083,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5c02bb70996b49eba31d0c206e28da24, type: 3}
-  m_Name: DialogGraph Blackboard
+  m_Name: SampleDialogGraph Blackboard
   m_EditorClassIdentifier: 
   VersionTimestamp: 638906222571386188
   AssetID:
@@ -2204,6 +2204,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5b27bb6d9a2c8d540a10dff10acc543e, type: 3}
-  m_Name: DialogGraph Debug Info
+  m_Name: SampleDialogGraph Debug Info
   m_EditorClassIdentifier: 
   m_CodeBreakPointsList: []

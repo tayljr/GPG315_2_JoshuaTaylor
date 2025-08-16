@@ -10,10 +10,10 @@ using UnityEngine.UI;
 [NodeDescription(name: "Conversation", story: "[Agent] and [Target] are in Conversation", category: "Action", id: "db6a1d0bc8b5f037e168e1fa2d36623d")]
 public partial class ConversationAction : Action
 {
-    [Tooltip("The character who is talking.")]
+    [Tooltip("The character who is talking")]
     [SerializeReference] public BlackboardVariable<CharacterBase> Agent;
 
-    [Tooltip("Who they are talking to.")]
+    [Tooltip("Who they are talking to")]
     [SerializeReference] public BlackboardVariable<CharacterBase> Target;
     
     [Tooltip("list of messages and who is responding")]
@@ -25,7 +25,7 @@ public partial class ConversationAction : Action
     [Tooltip("The characters name")]
     [SerializeReference] public BlackboardVariable<TextMeshProUGUI> agentName;
 
-    [Tooltip("The characters portrate box")]
+    [Tooltip("The characters portrait box")]
     [SerializeReference] public BlackboardVariable<Image> agentPortrait;
 
 
@@ -35,7 +35,7 @@ public partial class ConversationAction : Action
     [Tooltip("The targets name")]
     [SerializeReference] public BlackboardVariable<TextMeshProUGUI> targetName;
 
-    [Tooltip("The targets portrate box")]
+    [Tooltip("The targets portrait box")]
     [SerializeReference] public BlackboardVariable<Image> targetPortrait;
 
     private int currentMessage = 0;

@@ -10,12 +10,13 @@ using UnityEngine.UI;
 [NodeDescription(name: "Talk", story: "[agent] says [_text] to [target]", category: "Action", id: "0b898db8721d903d489af947cf5ba501")]
 public partial class TalkAction : Action
 {
-    [Tooltip("The character who is talking.")]
+    [Tooltip("The character who is talking")]
     [SerializeReference] public BlackboardVariable<CharacterBase> agent;
 
-    [Tooltip("What they are saying.")]
+    [Tooltip("What they are saying")]
     [SerializeReference] public BlackboardVariable<string> _text;
 
+    [Tooltip("Who they are talking to")]
     [SerializeReference] public BlackboardVariable<CharacterBase> target;
 
     [Tooltip("The TMP text to change")]
@@ -24,9 +25,8 @@ public partial class TalkAction : Action
     [Tooltip("The characters name")]
     [SerializeReference] public BlackboardVariable<TextMeshProUGUI> agentName;
 
-    [Tooltip("The characters portrate box")]
+    [Tooltip("The characters portrait box")]
     [SerializeReference] public BlackboardVariable<Image> agentPortrait;
-
 
     [Tooltip("The other TMP")]
     [SerializeReference] public BlackboardVariable<TextMeshProUGUI> targetDialogBox;
